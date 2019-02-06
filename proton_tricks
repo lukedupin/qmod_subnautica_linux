@@ -1,0 +1,3 @@
+#/bin/sh
+
+WINEPREFIX=/home/ldupin/.local/share/Steam/steamapps/compatdata/$1/pfx winetricks $2
