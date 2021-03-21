@@ -37,3 +37,7 @@ Copy patch into lcoation:
 ## Why am I coping random commands into my terminal?!?!
 
 QModManager.exe is looking for Manged\Assembly-CSharp.dll.  This then points to the wrong file on Linux.  This script copys the dll file into the wrong name that QModManager.exe is looking for, runs QMod, then copies the wrongly named files to their desired location.
+
+## Now most of this isn't needed.
+
+You do need to add version and winhttp to your wincfg libraries
